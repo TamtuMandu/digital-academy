@@ -3,12 +3,6 @@
     box-sizing: border-box;
     
 }
- 
-.body {
-    margin: 0 auto;
-    width: 1450px;
-   
-}
 
 .main {
     font-size: 15px;
@@ -43,7 +37,7 @@
 
 .menu-bars {
     position: relative;
-    width: 100%;
+    width: 1420px;
     align-items: center;
     margin: 0 auto;
 
