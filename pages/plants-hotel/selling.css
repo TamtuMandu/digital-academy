@@ -1,0 +1,120 @@
+* {
+    font-family: sans-serif;
+    line-height: 1.5x;
+    box-sizing: border-box;
+   
+ 
+}
+body {
+    background-color: rgb(8, 73, 73);
+
+}
+h1 {
+    text-align: center;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+.product-container {
+    background-color: white;
+    width: 700px;
+    border: solid 5px;
+    margin: 50px auto 0;
+    padding: 0 10px;
+    position: relative;
+}
+.product-container::before {
+    content: "SALE"; 
+    color: white;
+    background-color: #ec2f2f;
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 7px 15px;
+    top: -13px;
+    left: -34px;
+}
+
+.product-main {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.sellphiloplant {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+.product-details {
+    display: inline;
+    width: 300px;
+    float: right;
+    margin-right: 65px;
+    margin-top: 30px;
+}
+
+.price {
+     font-size: 24px;
+     background-color: #ec2f2f;
+     color: white;
+     font-weight: normal;
+     font-size: 24px ;
+     padding: 10px;
+}
+
+.shipping {
+    text-transform: uppercase;
+    color: rgba(68, 68, 68, 0.342);
+}
+.product-care {
+    list-style-type: square;
+    line-height: 1.5;
+ }
+.info {
+    float: right;
+    line-height: 1.5;
+}
+
+a:visited {
+    background-color: #f7f7f7;
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+}
+a:hover, a:active {
+    background-color: black ;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+.pot1,
+.pot2,
+.pot3 {
+    float: left;
+    padding: 10px;
+    display:block;
+}
+
+
+.add-cart {
+    background-color: #f7f7f7;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.add-cart:hover {
+    color: white ;
+    background-color: black;
+}
+
+

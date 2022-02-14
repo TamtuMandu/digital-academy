@@ -1,0 +1,102 @@
+* {
+  font-family: sans-serif;
+  line-height: 1.5x;
+  box-sizing: border-box;
+ 
+}
+body {
+  background-color: rgb(8, 73, 73);
+  
+}
+.firstpage {
+    background-color: #fefefe;
+    width: 1200px;
+    height: auto;
+    border: solid 4px;
+    margin: 50px auto 0;
+    padding: 0 10px;
+    position: relative;
+    background-image:  url("images/mainbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    background-size: 850px;
+    
+  }
+
+.header { 
+  text-align: center;
+  font-size: 30px;
+}
+.logo {
+      width: 200px; 
+      height: auto;
+      position:absolute;
+      top: 10px;
+      right: 0;
+  }
+
+.nav {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  
+}
+
+.nav-item {
+  display: inline;
+  width: 230px;
+  height: 230px;
+  background-color: #f7f7f7;
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+  
+}
+
+
+nav-items a:link a:visited {
+  display: block; 
+  margin: 10px 20px 0px;
+  display: inline-block;
+  color: #c6ccad;
+  }
+
+
+
+footer{
+    font-size: 14px;
+    padding: 20px;
+    color: rgba(15,133,114,255); 
+  }
+  
+.related {
+  list-style: none; 
+  padding: 20px 0px 20px 20px;
+ 
+  font-style: normal;
+  line-height: 1.5;
+  }
+
+.tipstable {
+  width: 800px;
+  margin: 0 auto;
+}
+table {
+  border-collapse: collapse;
+}
+table th,
+table td {
+  border: 1px double rgba(15,133,114,255);  
+  padding: 20px;
+  border-spacing: 5px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.tableflowers {
+  height: 100px;
+  width: 100px;  
+}

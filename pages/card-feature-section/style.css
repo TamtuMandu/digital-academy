@@ -1,0 +1,106 @@
+* {
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+    
+}
+ 
+.body {
+    margin: 0 auto;
+    width: 1450px;
+   
+}
+
+.main {
+    font-size: 15px;
+    display: block;
+    text-align:  center;
+    width: 500px;
+    line-height: 1.5;
+    margin: 0 auto;
+    opacity: 0.8;
+    
+}
+
+.main-header-2 {
+    font-size: 35px;
+    color: hsl(229, 6%, 66%);
+    font-weight: normal;
+    line-height: 0,1px;
+}
+
+.main-header-1 {
+    font-size: 35px;
+    color: hsl(234, 12%, 34%);
+    font-weight: normal;
+    line-height: 0.1px;
+}
+
+.main-paragraph {
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+}
+
+
+.menu-bars {
+    position: relative;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.menu-bar-header {
+    font-size: 20px;
+    font-weight: normal;
+    color: hsl(234, 12%, 34%);
+    
+}
+.menu-bar-paragraph {
+    font-size: 13px;
+    font-weight: normal;
+    color: hsl(229, 6%, 66%) ;
+}
+.supervisor {
+    width: 350px;
+    height: 250px;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    padding: 5px 35px;
+    background-color:  hsl(0, 0%, 98%);
+    position: absolute;
+    
+}
+.icon {
+    width: 60px;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    
+}
+ 
+.menu-bar-supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+    left: 110px;
+    top: 200px;
+ 
+}
+.menu-bar-calculator {
+    border-top: 4px solid  hsl(212, 86%, 64%);
+    right: 110px;
+    top: 200px;
+   
+}
+.menu-bar-teambuilder {
+    border-top: 4px solid  hsl(0, 78%, 62%);
+    top: 30px;
+    left: 535px;
+   
+}
+
+
+.menu-bar-karma {
+    border-top: 4px solid  hsl(34, 97%, 64%);
+    top: 310px;
+    left: 535px;
+   
+}

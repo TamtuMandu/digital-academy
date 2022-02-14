@@ -1,0 +1,106 @@
+* {
+    font-family: sans-serif;
+    line-height: 1.5x;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+.container {
+    width: 700px;
+    border: solid 5px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+.container::before {
+    content: "SALE"; 
+    color: white;
+    background-color: #ec2f2f;
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 7px 15px;
+    top: -13px;
+    left: -15px;
+}
+.sellphiloplant {
+    width: 350px;
+    float: left;
+    display: block;
+}
+
+.price {
+     font-size: 20px;
+     background-color: #ec2f2f;
+     color: white;
+     display: inline-block;
+     font-weight: bold;
+     font-size: 30px ;
+     
+}
+
+.shipping {
+    text-transform: uppercase;
+    color: rgba(68, 68, 68, 0.342);
+    float: right;
+   
+}
+.potscontainer {
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    position:relative;
+    width: 10px;
+    display: block;
+    
+}
+
+.potsale ::after  {
+    content: "35$";
+    color: rgb(255, 255, 255);
+    background-color: #ec2f2f; 
+    display: inline-block;
+    position: absolute;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 6px;
+    : 50px;
+}
+.productdetails {
+    list-style-type: square;
+    line-height: 1.5;
+}
+
+.add-cart {
+    background-color: #f7f7f7;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.add-cart:hover {
+    color: white ;
+    background-color: black;
+}
+
+a:visited {
+    background-color: #f7f7f7;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+a:hover, a:active {
+    background-color: black ;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+
+}
+

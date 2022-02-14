@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@0,100;0,400;0,700;1,200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <nav class="menu-bar">
+          <a href=""> Collections </a>
+          <a href=""> Men </a>
+          <a href=""> Women </a>
+          <a href=""> About </a>
+          <a href=""> Contact </a>
+        </nav>
+        <nav class="sign-nav">
+          <a href=""> sign-up </a>
+          <a href=""> sign-in </a>
+        </nav>
+      </header>
+
+      <div class="product-container">
+        <div class="produc-images">
+          <div class="main-product-image">
+            <img
+              src="images/image-product-2.jpg"
+              alt="product"
+              width="310px"
+              height="auto"
+            />
+          </div>
+          <div class="product-thumbnails">
+            <img src="images/image-product-1-thumbnail.jpg" alt="thumbnail" />
+            <img src="images/image-product-2-thumbnail.jpg" alt="thumbnail" />
+            <img src="images/image-product-3-thumbnail.jpg" alt="thumbnail" />
+            <img src="images/image-product-4-thumbnail.jpg" alt="thumbnail" />
+          </div>
+        </div>
+
+        <div class="product-description">
+          <h3>sneaker company</h3>
+          <h1>Fall limited edition sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they'll withstand everything
+            the weather can offer.
+          </p>
+
+          <div class="price">
+            <span class="price-now"> $125.00 </span>
+            <span class="discount"> 50% </span>
+            
+          </div>
+
+          <del class="old-price">$250.oo</del>
+        
+          <div class="buy-buttons-container"> 
+            <div class="volume-btn">
+                <button class="volume-btn-control" id="minus">-</button>
+                <input type="number" value="0" id="number"/>
+                <button class="volume-btn-control" id="plus">+</button>
+              </div>
+    
+              <button class="add-to-cart">add to cart</button>
+          </div>
+
+        
+        </div>
+      </div>
+    </div>
+
+    <script>
+        const minus = document.getElementById('minus');
+        const number = document.getElementById('number');
+        const plus = document.getElementById('plus');
+
+        minus.addEventListener('click', () => {
+            if(Number(number.value) > 0) {
+                number.value = Number(number.value) - 1;
+            }
+        })
+
+        plus.addEventListener('click', () => {
+            number.value = Number(number.value) + 1;
+        })
+    </script>
+
+  </body>
+</html>
