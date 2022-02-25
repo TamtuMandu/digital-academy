@@ -1,0 +1,96 @@
+@media only screen and (max-width: 375px) {
+    .grid-1,
+    .grid-2,
+    .grid-4,
+    .grid-5,
+    .grid-6 {
+        grid-template-columns: repeat(1,1fr)
+        
+    
+    }
+footer {
+    width: 375px;
+    align-items: center;
+    
+}
+    header {
+        width: 375px;
+        height: 600px;
+        text-align: center;
+      
+    }
+.arrow {
+    top: 45%;
+    left: 45%;
+}
+.main-header {
+    font-size: 40px;
+}
+    
+    
+.grid-1-image,
+.grid-2-image,
+.tanegrine,
+.cherry {
+    width: 375px ;
+}
+
+.grid-1-text,
+.grid-2-text {
+    width: 350px;
+    padding: 40px 20px 40px 10px;
+    align-items: center;
+}
+
+.section-1,
+.section-2 {
+    font-size: 30px;
+    text-align: center;
+   
+}
+.section-1p,
+.section-2p {  
+    font-size: 16px;
+    font-weight:300;
+    width: 300px;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+.section-1a,
+.section-2a {
+    font-size: 14px;
+}
+
+.client-testemonials  {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px ;
+    width: 375px;
+}
+
+
+.emily,
+.thomas,
+.jennie {
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    font-size: 16px;
+    padding: 0px 60px 0px 0px;
+ 
+   
+}
+
+.cherry-text,
+.tangerine-text {
+    left: 15px;
+
+ 
+}
+.tangerine-text {
+    bottom: 10px;
+}
+.cherry-text {
+    bottom: 310px;
+}
